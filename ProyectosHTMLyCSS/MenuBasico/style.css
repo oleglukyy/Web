@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+header {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  justify-content: space-between;
+  color: whitesmoke;
+  height: 80px;
+  font-size: 1.5rem; /*para que se vea igual en pc y mv*/
+}
+.derecha {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-right: 2%;
+}
+.derecha p:hover {
+  color: yellow;
+  transform: scale(1.1); /*unicamente aumenta de modo visual*/
+}
+img {
+  height: 50px;
+  margin-left: 10%;
+  border-radius: 30px;
+}
+.logo {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}

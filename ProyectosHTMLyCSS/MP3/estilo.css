@@ -1,0 +1,73 @@
+html,
+body {
+  /* Define dimensiones base */
+  height: 100%; /* Ocupa toda la altura */
+  background-color: black; /* Fondo negro */
+  margin: 0; /* Elimina márgenes por defecto */
+}
+
+.contenedor {
+  /* Contenedor principal */
+  display: flex; /* Activa flexbox */
+  justify-content: center; /* Centra horizontal */
+  align-items: center; /* Centra vertical */
+  height: 100%; /* Ocupa toda la pantalla */
+}
+
+.cuadrado {
+  /* Caja del reproductor */
+  display: flex; /* Activa flexbox */
+  flex-direction: column; /* Coloca elementos en columna */
+  width: 400px; /* Ancho fijo */
+  height: 600px; /* Alto fijo */
+  background-color: aliceblue; /* Fondo claro */
+  border: 2px solid cornflowerblue; /* Borde azul */
+  border-radius: 15px; /* Esquinas redondeadas */
+}
+
+.imagen_cancion {
+  /* Imagen del álbum */
+  border-radius: 15px; /* Esquinas redondeadas */
+  width: 380px; /* Ancho */
+  height: 380px; /* Alto */
+  align-self: center; /* Centra dentro del contenedor */
+  margin-top: 12.5px; /* Separación superior */
+}
+
+p {
+  /* Estilo general del texto */
+  color: black; /* Color del texto */
+  text-align: left; /* Alineación */
+  font-size: 20px; /* Tamaño de letra */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; /* Fuente */
+  margin: 3px 0 0 15px; /* Márgenes */
+}
+
+.titulo {
+  /* Margen específico del título */
+  margin-top: 15px; /* Aumenta separación */
+}
+
+.botones {
+  /* Contenedor de iconos de control */
+  display: flex; /* Distribución flexible */
+  justify-content: center; /* Centra iconos */
+  gap: 25px; /* Espacio entre iconos */
+  margin-top: 30px; /* Separación respecto al texto */
+}
+
+.botones img {
+  /* Estilos de los iconos */
+  width: 35px; /* Ancho */
+  height: 35px; /* Alto */
+}
+
+.barra {
+  /* Línea inferior */
+  align-self: center; /* Centrada */
+  margin-top: 10px; /* Separación superior */
+  height: 3px; /* Grosor */
+  width: 300px; /* Longitud */
+  background-color: black; /* Color */
+  border-radius: 20px; /* Esquinas redondeadas */
+}

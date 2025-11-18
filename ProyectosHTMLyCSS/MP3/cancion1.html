@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Declara el tipo de documento -->
+<html lang="es">
+  <!-- Indica el idioma del documento -->
+  <head>
+    <!-- Contenedor de metadatos -->
+    <meta charset="UTF-8" />
+    <!-- Define codificación -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ajuste responsivo -->
+    <title>Reproductor</title>
+    <!-- Título de la pestaña -->
+    <link rel="stylesheet" href="estilo.css" />
+    <!-- Carga la hoja de estilos -->
+  </head>
+  <header></header>
+  <body>
+    <!-- Cuerpo visible de la página -->
+    <main class="contenedor">
+      <!-- Contenedor principal centrado -->
+      <section class="cuadrado" id="cancion1">
+        <!-- Bloque del reproductor -->
+        <img
+          class="imagen_cancion"
+          src="img/canciones/cancion1.png"
+          alt="Portada de 111"
+        />
+        <!-- Imagen de la canción -->
+        <p class="cancion titulo">111</p>
+        <!-- Título -->
+        <p class="cancion autor">Yan Block</p>
+        <!-- Autor -->
+        <div class="botones">
+          <!-- Contenedor de botones -->
+          <img title="Anterior" src="img/botones/atras.png" alt="Anterior" />
+          <!-- Botón anterior -->
+          <img title="Pausar" src="img/botones/jugar.png" alt="Pausar" />
+          <!-- Botón pausa -->
+          <a href="cancion2.html"
+            ><img
+              title="Siguiente"
+              src="img/botones/siguiente.png"
+              alt="Siguiente"
+          /></a>
+          <!-- Botón siguiente -->
+        </div>
+        <audio class="player" src="audio/audio1.mp3" controls></audio>
+
+        <div class="barra"></div>
+        <!-- Barra estática -->
+      </section>
+    </main>
+  </body>
+</html>

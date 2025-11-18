@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="El portfolio que te llevará a la gloria"
+    />
+    <!--es la descripcion que aparece en la web-->
+    <title>Portfolio</title>
+    <meta name="theme-color" content="#8f7ada" />
+    <!-- cambia color de parte de arriba del navegador-->
+    <link rel="icon" type="image/png" href="images/imagen1.png" />
+    <style>
+      body {
+        background-color: rgba(173, 119, 223, 0.829);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--etiqueta reemplazable,ni hace falta cierre-->
+    <header>
+      <h1>Portfolio de Oleh</h1>
+      <nav>
+        <!---->
+        <a href="#Experiencia">Experiencia</a>
+
+        <a
+          href="https://www.twitch.tv/?lang=es"
+          target="_blank"
+          rel="noreferrer"
+          >Twitch</a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <!--lo que hac unico la web-->
+      <button>
+        <a href="https://www.twitch.tv/?lang=es" target="_blank"
+          >hacer un boton
+        </a>
+      </button>
+      <p>
+        Estudiande de
+        <strong>Desarrollo de aplicaciones multiplataforma</strong>
+      </p>
+      <h2 id="Experiencia">Expreriencia</h2>
+      <ul>
+        <li class="list-item">Coordinador de servicios</li>
+        <li class="list-item">Socorrita</li>
+        <li class="list-item">Estudiante</li>
+        <li class="list-item">Prostituto</li>
+      </ul>
+      <img
+        id="charmander"
+        width="200"
+        height="200"
+        title="Este es Oleh"
+        alt="Imagen personal"
+        src="images/imagen1.png"
+      />
+      <a download href="images/imagen1.png">
+        <button>Download</button>
+      </a>
+      <!--contenido principal,solo puede haber 1-->
+      <aside>
+        <!--algo totalmente aparte del contenido principal, como un anexo(recomendacion,navegacion, etc)-->
+      </aside>
+      <section>
+        <!--secciones independientes o genericas-->
+        <article>
+          <!--elemento que si extraes a otro lugar, sigue teniendo sentido-->
+          <header>
+            <!--titulo-->
+            <h4><!--contenido--></h4>
+            <small
+              ><!--informacion no tan imporante(referencias,contexto,algo secundario)-->
+            </small>
+          </header>
+        </article>
+      </section>
+      <section>
+        <h2>formulario</h2>
+        <form method="post" action="/">
+          <fieldset>
+            <legend>informacion personal</legend>
+            <div>
+              <label for="name"
+                >Nombre:
+                <input type="text" name="name" placeholder="Olegluki" />
+              </label>
+            </div>
+            <div>
+              <label for="name"
+                >Nombre:
+                <input
+                  type="email"
+                  name="name"
+                  placeholder="tumail@gmail.com"
+                />
+              </label>
+            </div>
+            <div>
+              <label for="name"
+                >Nombre:
+                <input type="date" name="name" placeholder="xx/xx/xxxx" />
+              </label>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>Copyright 2023 -El Portfolio de Oleh</footer>
+  </body>
+</html>
